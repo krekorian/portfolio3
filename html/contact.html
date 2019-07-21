@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<title>Vartan Krekorian</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">About Vartan</a>
+        <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    <div id="main">
+        <div class="w3-blue">
+            <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container">
+                <h1>Vartan Krekorian</h1>
+            </div>
+        </div>
+
+        <div class='contact-page-container'>
+
+            <div class="row">
+                <div class="col-md-12">
+                    Phone: 818-203-8393<br><br>
+                    Email: vartan@krekorian.net
+                </div>
+
+
+            </div>
+
+            <div class="row row_seperator">
+                <div class="col-md-12">
+                    <form method="get" action="../files/Vartan_Krekorian_Resume.pdf" target="_blank">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-download"></i> Download
+                            Resume</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row row_seperator icons">
+                <div class="col-md-2">
+                    <a href="https://www.linkedin.com/in/vartan-krekorian-779780b6" target="_blank" LinkedIn>
+                        <img src="../img/LinkedIn-Blue-14@2x.png" alt="LinkedIn" width="50" height="20">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://github.com/krekorian" target="_blank" GitHub>
+                        <img src="../img/GitHub_Logo.png" alt="LinkedIn" width="50" height="20">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright &#169; Vartan Krekorian 2019</p>
+    </div>
+    <!-- <footer class="footer">Copyright &#169; Vartan Krekorian 2019</footer> -->
+    <script>
+
+        document.getElementById("content").addEventListener("click", function () {
+            w3_close();
+        });
+        function w3_open() {
+            document.getElementById("main").style.marginLeft = "2%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("openNav").style.display = 'none';
+        }
+        function w3_close() {
+            document.getElementById("main").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
+        }
+    </script>
+
+</body>
+
+</html>
