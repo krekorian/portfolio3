@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url("../img/background.jpg");
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    ;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: cover;
+}
+
+#main {
+    height: 100%;
+}
+
+/* 
+.content {
+    flex: 1 0 auto;
+} */
+
+.w3-blue, .w3-hover-blue:hover {
+    color: #fff!important;
+    background-color: rgb(0, 140, 255)!important
+}
+
+.main-page-content {
+    /* padding-left: 400px; */
+    margin-top: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.main-page-p {
+    color: bisque;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.headerColor {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-align: center;
+}
+
+.contact-page-container {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    /* margin: 0 auto; */
+}
+
+.project-page-container {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    min-height: 75%;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    /* margin: 0 auto; */
+}
+
+.home-page-container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    min-height: 30%;
+    min-width: 60%;
+    background-color: #fff;
+    /* width: 500px; */
+    /* height: 500px; */
+    /* margin: 0 auto; */
+}
+
+.row_seperator {
+    margin-top: 20px;
+}
+
+.icons {
+    justify-content: center
+}
+
+.content_writing {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-align: center;
+}
